@@ -6,10 +6,78 @@ public class Jeroo extends JerooBase {
 
     
     public void plantCross() {
-        
+  intro();
+  downTurn();
+  leftTurn();
+  downTurnLeft();
+  leftTurn();
+  last();
+  
     }
     // Put any helpermethods here
-    
+  
+
+public void plop(){
+  hop();
+  plant();
+}
+public void intro(){
+  hop();
+  hop();
+  hop();
+  hop();
+  hop();
+  hop();
+  turn(RIGHT);
+  hop();
+  hop();
+  plop();
+}
+public void downTurn(){
+  plop();
+  plop();
+  plop();
+  turn(RIGHT);
+  plop();
+  plop();
+  plop();
+}
+public void leftTurn(){
+  turn(LEFT);
+  plop();
+  plop();
+  turn(LEFT);
+  plop();
+  plop();
+  plop();
+}
+public void downTurnLeft(){
+  turn(RIGHT);
+  plop();
+  plop();
+  plop();
+  turn(LEFT);
+  plop();
+  plop();
+  turn(LEFT);
+  plop();
+  plop();
+  plop();
+  turn(RIGHT);
+  plop();
+  plop();
+  plop();
+}
+public void last(){
+  turn(RIGHT);
+  plop();
+  plop();
+  plop();
+  turn(LEFT);
+  plop();
+  hop();
+  hop();
+}
     
     
     
